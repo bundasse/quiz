@@ -38,7 +38,6 @@
       </div>
       <div class="basis-full bg-white rounded-lg my-10 p-10 text-center font-bold text-lg" v-else>
         <span class="text-blue-500">{{resultScore}}</span>개 맞았습니다! 당신의 점수는 <span class="text-blue-500">{{ resultScore100 }}</span>점 입니다.
-        {{ resultX }}
         {{ userSelect }}
         <p class="mt-3">
           <router-link to="/" class="cursor-pointer font-bold px-3 py-1 text-sm rounded-lg mt-5 border hover:border-green-400 transition-all duration-100 hover:text-green-400">처음으로 돌아가기</router-link>
